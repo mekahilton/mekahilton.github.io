@@ -1,0 +1,234 @@
+@font-face {
+    font-family:monday-feelings;
+    src: url(monday-feelings-font/MondayFeelings-7BD2l.ttf);
+    
+}
+
+
+body {
+    background-color:rgb(201, 199, 199);
+
+}
+
+
+.header_img {
+    width: 98%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+
+      }
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: monday-feelings;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    background-color: #e5e5e5;
+}
+
+nav a:visited,
+nav a:link {
+    color: #26616c;
+}
+
+
+main {
+    background-color: white;
+    width: 95%;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: monday-feelings;
+}
+
+
+
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    
+    
+}
+
+.gone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 5px;
+}
+
+span {
+    position: relative;
+    left: 180px;
+    bottom: 28px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+.adoption {
+    cursor:pointer;
+}
+
+
+img {
+    border: 4px solid darkgray;
+   
+}
+
+.past {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap:15px;
+   
+    
+  
+}
+
+.button1 {
+    background-color: lightgray;
+    border: solid 3px black;
+    color: #26616c;
+    padding: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.button2 {
+    background-color: lightgray;
+    border: solid 3px black;
+    color: #26616c;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.button3 {
+    background-color: lightgray;
+    border: solid 3px black;
+    color: #26616c;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.left {
+    margin:0;
+    position: relative;
+    right: 30%;
+    top: 32%;
+}
+
+.right {
+    margin:0;
+    position: relative;
+    left: 30%;
+    top: 32%;
+}
+
+.container {
+    position: relative;
+    border: 3px solid gray; 
+    background-color: #26616c;
+    height: 200px;
+    border-radius: 1rem;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .line {
+    background-color:#88C2CC;
+    height: 4px;
+    border: none;
+  }
+ 
+  p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+     
+  }
+
+  
+
+  #Cats {
+    background-color:lightgray;
+    border: solid 3px #26616c;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 10px;
+    width: 100px;
+  }
+
+  #Dogs {
+    background-color:lightgray;
+    border: solid 3px #26616c;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 10px;
+    width: 100px;
+  }
+
+  #All {
+    background-color:lightgray;
+    border: solid 3px #26616c;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius:1rem;
+    margin: 10px;
+    width: 100px;
+  }
+
+  .kitten {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  
