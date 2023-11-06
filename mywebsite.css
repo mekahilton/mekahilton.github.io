@@ -12,7 +12,8 @@ body {
 
 
 .header_img {
-    width: 98%;
+    width: 100%;
+    height: auto;
     margin: 1rem auto;
     border-radius: 1rem;
 
@@ -146,32 +147,36 @@ img {
 
 .left {
     margin:0;
-    position: relative;
-    right: 30%;
-    top: 32%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .right {
     margin:0;
-    position: relative;
-    left: 30%;
-    top: 32%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .container {
     position: relative;
     border: 3px solid gray; 
     background-color: #26616c;
-    height: 200px;
+    height: 150px;
     border-radius: 1rem;
+    justify-content: space-evenly;
   }
   
   .vertical-center {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   
   }
 
   .line {
