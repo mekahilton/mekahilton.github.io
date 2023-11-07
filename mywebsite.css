@@ -25,14 +25,15 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-size: 1.4rem;
+    padding-top: 1rem;
 }
 
 
 .topnav a {
     text-decoration: none;
     font-family: monday-feelings;
-    /* display: flex;
-    justify-content: space-evenly; */
+    display: flex;
+    justify-content: space-evenly;
     display:block;
     font-size: 22px;
     padding: 14px 16px;
@@ -97,9 +98,6 @@ div {
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: center;
-
-    
-    
 }
 
 .gone {
@@ -119,10 +117,18 @@ span {
 
 }
 
-
+a:visited,
+a:link {
+    color: #26616c;
+}
 
 
 .adoption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 5px;
     cursor:pointer;
 }
 
@@ -193,7 +199,7 @@ img {
     position: relative;
     border: 3px solid gray; 
     background-color: #26616c;
-    height: 150px;
+    height: 200px;
     border-radius: 1rem;
     justify-content: space-evenly;
   }
