@@ -11,6 +11,12 @@ body {
 
 }
 
+.carousel-caption {
+    font-family: monday-feelings;
+    color:#ffffff;
+}
+
+
 
 .header_img {
     width: 100%;
@@ -26,7 +32,7 @@ body {
     align-items: center;
     font-size: 1.4rem;
     padding-top: 1rem;
-}
+    }
 
 
 .topnav a {
@@ -48,7 +54,7 @@ body {
     color: #26616c;
 }
 
-/*trying to see if this works */
+
 
 .topnav .icon {
     display: none;
@@ -108,9 +114,9 @@ div {
     column-gap: 5px;
 }
 
-span {
+.span2 {
     position: relative;
-    left: 180px;
+    left: 170px;
     bottom: 28px;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -123,14 +129,14 @@ a:link {
 }
 
 
-.adoption {
+/* .adoption {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 50px;
     column-gap: 5px;
     cursor:pointer;
-}
+} */
 
 
 img {
