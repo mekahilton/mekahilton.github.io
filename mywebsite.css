@@ -129,14 +129,6 @@ a:link {
 }
 
 
-/* .adoption {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 50px;
-    column-gap: 5px;
-    cursor:pointer;
-} */
 
 
 img {
@@ -150,16 +142,24 @@ img {
     flex-wrap: wrap;
     row-gap: 15px;
     column-gap:15px;
-   
-    
-  
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
 }
 
 .button1 {
     background-color: lightgray;
     border: solid 3px black;
     color: #26616c;
-    padding: 30px;
+    padding: 28px;
     font-size: 24px;
     cursor: pointer;
     border-radius: 1rem;
@@ -169,7 +169,7 @@ img {
     background-color: lightgray;
     border: solid 3px black;
     color: #26616c;
-    padding: 20px;
+    padding: 18px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 1rem;
@@ -179,7 +179,7 @@ img {
     background-color: lightgray;
     border: solid 3px black;
     color: #26616c;
-    padding: 20px;
+    padding: 18px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 1rem;
@@ -205,7 +205,8 @@ img {
     position: relative;
     border: 3px solid gray; 
     background-color: #26616c;
-    height: 200px;
+    height: 250px;
+    width: auto;
     border-radius: 1rem;
     justify-content: space-evenly;
   }
