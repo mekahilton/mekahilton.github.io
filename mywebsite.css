@@ -87,7 +87,10 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-family: monday-feelings;
+
 }
+
+
 
 div {
     display: flex;
@@ -102,14 +105,14 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 25px;
-    column-gap: 15px;
+    column-gap: 25px;
 }
 
   figcaption {
     font-family : monday-feelings;
     font-size: 20px;
     text-align: center;
-  }
+}
 
 
 a:visited,
@@ -119,15 +122,14 @@ a:link {
 
 img {
     border: 4px solid darkgray;
-   
 }
 
 .past {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 15px;
-    column-gap:15px;
+    row-gap: 25px;
+    column-gap:25px;
 }
 
 @media screen and (max-width: 600px){
@@ -214,9 +216,14 @@ img {
  
   p{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
      
+  }
+
+  .info {
+    margin: 0 auto;
+    max-width: 150rem;
   }
 
   #Cats {
@@ -259,6 +266,5 @@ img {
     display: block;
   margin-left: auto;
   margin-right: auto;
-
-  }
+}
   
